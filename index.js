@@ -22,7 +22,7 @@ function writeToFile() {
         }
         let logoFinal = logoShape.render()
         fs.writeFile("./examples/logo.svg", logoFinal, (error) => {
-            error ? console.log('error') : console.log('Logo Generated!');
+            error ? console.log('error') : console.log('Generated logo.svg');
         })
     })
 }
